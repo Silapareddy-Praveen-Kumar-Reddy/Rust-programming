@@ -1,0 +1,10 @@
+fn main() {
+    let a = ("Karumuri", "Surya Prakash","CSE");
+
+    if let ("Karumuri", "Surya Prakash","CSE") = a {
+        println!("Wrote all values in pattern to be matched with the scrutinee expression");
+    } else {
+     
+        println!("Value unmatched");
+    }
+}

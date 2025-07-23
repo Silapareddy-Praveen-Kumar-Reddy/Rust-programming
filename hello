@@ -1,0 +1,9 @@
+fn main() {
+    print!("Hello, ");
+    
+    println!("world!");
+
+    let artist = "RObert downey";
+    let song = "Unstoppable";
+    println!("Now playing: {} - {}", artist, song);
+}

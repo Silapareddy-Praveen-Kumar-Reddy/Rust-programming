@@ -1,0 +1,9 @@
+fn main() {
+    let mut x = 10;
+    println!("Value of x:{}", x);
+    let a = & mut x;
+    println!("Value of a:{}", a);
+    *a = 11;
+    println!("Value of a:{}", a);
+    println!("Value of x:{}", x); 
+}

@@ -1,0 +1,6 @@
+fn main() {
+    let symbol = "&";
+    for i in 1..=5 {  
+        println!("{}", symbol.repeat(i));
+    }
+}

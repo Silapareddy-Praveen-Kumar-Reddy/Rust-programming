@@ -1,0 +1,24 @@
+fn main() {
+    let mut i = 1;
+
+    'outer: loop {
+        if i > 10 {
+            break 'outer;
+        }
+
+        let mut j = 1;
+
+        'inner: loop {
+            if j > 10 {
+                break 'inner;
+            }
+
+            print!("{} x {} = {}\t", i, j, i * j);
+
+            j += 1;
+        }
+
+        println!();
+        i += 1;
+    }
+}

@@ -1,0 +1,16 @@
+fn main() {
+   
+    let x = 42;          
+    let y = 3.14;        
+    let name = "Rust"; 
+
+    println!("Implicitly typed values:");
+    println!("x = {}, y = {}, name = {}", x, y, name);
+
+    let a: i64 = 1000;          
+    let b: f32 = 2.71828;      
+    let language: &str = "Rust Programming"; 
+
+    println!("\nExplicitly typed values:");
+    println!("a = {}, b = {}, language = {}", a, b, language);
+}
